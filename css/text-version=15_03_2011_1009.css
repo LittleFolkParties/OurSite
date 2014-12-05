@@ -1,0 +1,140 @@
+
+/* annet på siden */
+body {
+	font-family:Verdana;
+	font-size:11px;
+	color:#5c5c5c;
+	line-height:130%;
+}
+
+a 
+{
+	color:#8E8E8E;
+	text-decoration:none;
+	outline-style:none;
+    /*font-family:ApexSansBoldTRegular;*/
+	/*font-family:ApexSansBookTRegular;*/
+	/*font-family:ApexSansLightTRegular;*/
+	font-family:ApexSansMediumTRegular;
+	
+	font-weight:normal;
+}
+a:hover 
+{
+	text-decoration:none;
+	color:#000;
+}
+
+
+h1, h1 a 
+{
+	font-family:Helvetica;
+	font-size:18px;
+	font-weight:bold;
+	color:#005e82;
+	margin-bottom:5px;
+	text-decoration:none;
+}
+
+h2
+{
+	font-family:Helvetica;
+	font-size:14px;
+	color:#5c5c5c;
+	margin-bottom:5px;
+	font-weight:bold;
+	line-height:100%;
+	display:block;
+}
+.h2 
+{
+	color:#5C5C5C;
+	font-family:Helvetica;
+	font-size:12px;
+	font-weight:bold;
+	margin-bottom:4px;
+	display:block;
+}
+
+h3 
+{
+	font-size:14px;
+	color:#ccc;
+	margin-bottom:5px;
+}
+
+strong, b 
+{
+	font-weight:bold
+}
+
+em
+{
+    font-style:italic;   
+}
+
+/* Use fontsquirrel.com to convert fonts to the formats we need to utilize the @font-face functionality */
+/*
+@font-face {
+	font-family: 'BertholdAkzidenzGroteskConden';
+	src: url('akzidenzgroteskbecn.eot');
+	src: local('Berthold Akzidenz Grotesk'), local('AkzidenzGroteskBE-Cn'), url('akzidenzgroteskbecn.woff') format('woff'), url('akzidenzgroteskbecn.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'BertholdAkzidenzGroteskBoldCo';
+	src: url('akzidenzgroteskbeboldcn.eot');
+	src: local('Berthold Akzidenz Grotesk'), local('AkzidenzGroteskBE-BoldCn'), url('akzidenzgroteskbeboldcn.woff') format('woff'), url('akzidenzgroteskbeboldcn.ttf') format('truetype');
+}
+*/
+
+@font-face {
+	font-family: 'ApexSansMediumTRegular';
+	src: url('apexsansmediumt-webfont.eot');
+	src: local('☺'), url('apexsansmediumt-webfont.woff') format('woff'), url('apexsansmediumt-webfont.ttf') format('truetype'), url('apexsansmediumt-webfont.svg#webfontrCr9Vpfv') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ApexSansLightTRegular';
+	src: url('apexsanslightt-webfont.eot');
+	src: local('☺'), url('apexsanslightt-webfont.woff') format('woff'), url('apexsanslightt-webfont.ttf') format('truetype'), url('apexsanslightt-webfont.svg#webfontW6eqRUXD') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ApexSansExtraLightTRegular';
+	src: url('apexsansextralightt-webfont.eot');
+	src: local('☺'), url('apexsansextralightt-webfont.woff') format('woff'), url('apexsansextralightt-webfont.ttf') format('truetype'), url('apexsansextralightt-webfont.svg#webfont98qouDow') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ApexSansExtraBoldTRegular';
+	src: url('apexsansextraboldt-webfont.eot');
+	src: local('☺'), url('apexsansextraboldt-webfont.woff') format('woff'), url('apexsansextraboldt-webfont.ttf') format('truetype'), url('apexsansextraboldt-webfont.svg#webfontbU1aMCBH') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ApexSansBookTRegular';
+	src: url('apexsansbookt-webfont.eot');
+	src: local('☺'), url('apexsansbookt-webfont.woff') format('woff'), url('apexsansbookt-webfont.ttf') format('truetype'), url('apexsansbookt-webfont.svg#webfontbZaIF3S2') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ApexSansBoldTRegular';
+	src: url('apexsansboldt-webfont.eot');
+	src: local('☺'), url('apexsansboldt-webfont.woff') format('woff'), url('apexsansboldt-webfont.ttf') format('truetype'), url('apexsansboldt-webfont.svg#webfontOuYNEwtJ') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/* Localized */

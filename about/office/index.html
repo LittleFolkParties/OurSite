@@ -1,0 +1,457 @@
+<!DOCTYPE html PUBLIC>
+<html lang="no" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Contact - Little Folk Parties</title>
+    <link rel="shortcut icon" href="../favicon.ico" />
+    <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+    <meta name="viewport" content="width=1200" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../../HttpCombiner-s=css&t=text_css&v=13.ashx" />
+    <link rel="stylesheet" type="text/css" media="all" href="../../css/text-version=15_03_2011_1009.css" />
+    <link rel="stylesheet" type="text/css" media="print" href="../../css/print-version=15_03_2011_1009.css" />
+    <script type="text/javascript" src="../../js/jquery-1.4.2.js?version=15_03_2011_1009"> </script>
+    <script type="text/javascript" src="../../js/jquery.innerfade.js?version=15_03_2011_1009"> </script>
+    <script type="text/javascript" src="../../js/jquery.cms.js?version=15_03_2011_1009"> </script>
+    <script type="text/javascript" src="../../js/jquery.badBrowser.js?version=15_03_2011_1009"> </script>
+    <script type="text/javascript" src="../../js/standard.js?version=15_03_2011_1009"> </script>
+    <script type="text/javascript" src="../../js/jquery.scrollTo-min.js?version=15_03_2011_1009"> </script>
+    <script type="text/javascript" src="../../js/jquery.serialScroll-min.js?version=15_03_2011_1009"> </script>
+  </head>
+  <body id="body" onLoad="doPreloadImages();">
+    <img style="position:absolute;top:-100px;left:-100px;" width="1px" height="1px" src="../../ga.aspx.html" />
+    <script type="text/javascript">
+
+					function doPreloadImages(){
+
+					Image11= new Image();
+					Image11.src = "/css/apexsansboldt-webfont.eot";
+
+					Image12= new Image();
+					Image12.src = "/css/apexsansboldt-webfont.svg";
+
+					Image13= new Image();
+					Image13.src = "/css/apexsansboldt-webfont.ttf";
+
+					Image14= new Image();
+					Image14.src = "/css/apexsansboldt-webfont.woff";
+
+					Image21= new Image();
+					Image21.src = "/css/apexsansbookt-webfont.eot";
+
+					Image22= new Image();
+					Image22.src = "/css/apexsansbookt-webfont.svg";
+
+					Image23= new Image();
+					Image23.src = "/css/apexsansbookt-webfont.ttf";
+
+					Image24= new Image();
+					Image24.src = "/css/apexsansbookt-webfont.woff";
+
+					Image31= new Image();
+					Image31.src = "/css/apexsansextraboldt-webfont.eot";
+
+					Image32= new Image();
+					Image32.src = "/css/apexsansextraboldt-webfont.svg";
+
+					Image33= new Image();
+					Image33.src = "/css/apexsansextraboldt-webfont.ttf";
+
+					Image34= new Image();
+					Image34.src = "/css/apexsansextraboldt-webfont.woff";
+
+					Image41= new Image();
+					Image41.src = "/css/apexsansmediumt-webfont.eot";
+
+					Image42= new Image();
+					Image42.src = "/css/apexsansmediumt-webfont.svg";
+
+					Image43= new Image();
+					Image43.src = "/css/apexsansmediumt-webfont.ttf";
+
+					Image44= new Image();
+					Image44.src = "/css/apexsansmediumt-webfont.woff";
+
+					Image51= new Image();
+					Image51.src = "/css/apexsanslightt-webfont.eot";
+
+					Image52= new Image();
+					Image52.src = "/css/apexsanslightt-webfont.svg";
+
+					Image53= new Image();
+					Image53.src = "/css/apexsanslightt-webfont.ttf";
+
+					Image54= new Image();
+					Image54.src = "/css/apexsanslightt-webfont.woff";
+
+					Image61= new Image();
+					Image61.src = "/css/apexsansextralightt-webfont.eot";
+
+					Image62= new Image();
+					Image62.src = "/css/apexsansextralightt-webfont.svg";
+
+					Image63= new Image();
+					Image63.src = "/css/apexsansextralightt-webfont.ttf";
+
+					Image64= new Image();
+					Image64.src = "/css/apexsansextralightt-webfont.woff";
+
+					Image1001= new Image();
+					Image1001.src = "/images/design/doc_list2_arrow.png";
+
+					}
+
+				</script>
+    <div id="frame">
+      <div id="frame_loading" style="display:none;"> </div>
+      <script type="text/javascript">
+
+						$('#frame_loading').css({ display: "block" });
+
+					</script>
+      <div id="frame_loading2" style="display:none;"> </div>
+      <script type="text/javascript">
+
+						$('#frame_loading2').css({ display: "block" });
+
+					</script>
+      <div id="frame_loading3" style="display:none;"> </div><script type="text/javascript" xmlns="">
+	
+				
+
+			var thisImageIsShowing = 1;
+
+
+
+
+			function nextImg()
+			{
+				button = ".img_button" + (thisImageIsShowing + 1);
+
+				if(thisImageIsShowing + 1 > $(".img_button").length)
+				{
+					delayedRedirect(document.hiddenValuesNext.elements['nextDocUrl'].value);
+				}
+				else
+				{
+					changeImg($(button).find("a").attr("rel"), (thisImageIsShowing + 1));
+					setTimeout('$("#frame").css("background", "none")', 500);
+				}
+			}
+
+
+			function prevImg()
+			{
+				button = ".img_button" + (thisImageIsShowing - 1);
+
+				if(thisImageIsShowing - 1 == 0)
+				{
+					delayedRedirect(document.hiddenValuesPrev.elements['prevDocUrl'].value);
+				}
+				else if (thisImageIsShowing - 1 == 1)
+				{
+					changeImg($(button).find("a").attr("rel"), (thisImageIsShowing - 1));	
+				}
+				else
+				{
+					changeImg($(button).find("a").attr("rel"), (thisImageIsShowing - 1));
+				}
+			}
+
+
+			function changeImg(showThisImage, pos)
+			{
+				if($("#img1").attr("src") != showThisImage)
+				{
+
+					thisImageIsShowing = pos;
+
+		
+					$("#horizontal-arrow-left").css("display", "none");
+					$("#horizontal-arrow-right").css("display", "none");
+
+					//$('#middle_inner_content').css("display", "none");
+					
+					$('#frame_loading3').fadeIn(500, function() {
+						if(pos == 1)
+						{
+							$('.doc1').css("display", "block");
+							$("#img1").css("opacity", "0.4");
+							$("#frame").css("background", "url(/images/design/pattern_bg_80.png)");
+						}
+						else
+						{
+							$('.doc1').css("display", "none");
+							$("#img1").css("opacity", "1.0");
+							$("#frame").css("background", "none");
+						}
+						$("#img1").attr("src",showThisImage);
+						
+						$(".img_button").css("opacity", "0.4");
+						$(".img_button").removeClass("active");
+
+						$(".img_button" + pos).css("opacity", "0.8");
+						$(".img_button" + pos).addClass("active");
+
+					//if(pos == 1)
+					//{
+						//$("#horizontal-arrow-left").css("display", "none");
+					//}
+					//else
+					//{
+						$("#horizontal-arrow-left").css("display", "block");
+					//}
+
+					//if(pos == $(".screenshot").length)
+					//{
+						//$("#horizontal-arrow-right").css("display", "none");
+					//}
+					//else
+					//{
+						$("#horizontal-arrow-right").css("display", "block");
+					//}
+
+					});
+
+					$('#frame_loading3').fadeOut(500);
+				}
+			}
+
+
+			$("#img1").css('visibility', 'hidden');
+
+			var supersizeCached = false;
+
+			var thisbrowserwidth = $(window).width();
+			var thisbrowserheight = $(window).height();
+
+			(function($) {
+				
+				//Resize image on ready or resize
+				$.fn.supersize = function() {
+
+					//Invoke the resizenow() function on document ready
+					$(document).ready(function() {
+						$('#supersize').resizenow();
+					});
+
+					//Invoke the resizenow() function on browser resize
+					$(window).bind("resize", function() {
+						$('#supersize').resizenow();
+					});
+			
+				};
+
+				//Adjust image size
+				$.fn.resizenow = function() {
+					
+					//Define starting width and height values for the original image
+					var startwidth = 1680;var startheight = 929;
+						
+					//Define image ratio
+					var ratio = startheight / startwidth;
+					//Gather browser dimensions
+					var browserwidth = $(window).width();
+					var browserheight = $(window).height();
+					
+					//Resize image to proper ratio
+			
+					if ((browserheight / browserwidth) > ratio) {
+
+						//$(this).height(browserheight);
+						//$(this).width(browserheight / ratio);
+
+						$(this).find("#img1").height(browserheight);
+						setCookie('cookieNewImgHeight',(browserheight), exp);
+
+						$(this).find("#img1").width(browserheight / ratio);
+						setCookie('cookieNewImgWidth',(browserheight / ratio), exp);
+			
+					} else {
+			
+						//$(this).width(browserwidth);
+						//$(this).height(browserwidth * ratio);
+
+						$(this).find("#img1").width(browserwidth);
+						setCookie('cookieNewImgWidth',(browserwidth), exp);
+
+						$(this).find("#img1").height(browserwidth * ratio);
+						setCookie('cookieNewImgHeight',(browserwidth * ratio), exp);
+
+					}
+
+					//Make sure the image stays center in the window
+					
+					
+
+							$(this).find("#img1").css('left', (browserwidth - $("#img1").width()) / 2);
+
+
+							
+
+					$(this).find("#img1").css('top', (browserheight - $(this).height()) / 2);
+					$(this).find("#img1").css('visibility', 'visible');
+
+					setCookie('cookieWindowHeight',$(window).height(), exp);
+
+					setCookie('cookieImgLeft',((browserwidth - $(this).width()) / 2), exp);
+					setCookie('cookieImgTop',((browserheight - $(this).height()) / 2), exp);
+
+					//$("#supersize_loading").hide(1000, function(){$('#supersize_loading').css('display', 'none')});
+
+				};
+
+			})(jQuery);
+
+			if((getCookie('cookieWindowWidth') != null &&  getCookie('cookieWindowWidth')) != '' && 
+				getCookie('cookieWindowHeight') != null && 
+				getCookie('cookieImg') != null && 
+				getCookie('cookieWindowWidth') != null && 
+				getCookie('cookieWindowHeight') != null &&
+				
+
+							getCookie('cookieImgLeft') != null &&
+
+
+							
+				getCookie('cookieImgTop') != null &&
+				getCookie('cookieNewImgWidth') != null &&
+				getCookie('cookieNewImgHeight') != null)
+			{
+				if(getCookie('cookieWidth') == '1680'
+				&& 
+				getCookie('cookieHeight') == '929'
+				&&  
+				getCookie('cookieImg') == '/images/design/bakground.png'
+				&&  
+				getCookie('cookieWindowWidth') == thisbrowserwidth
+				&& 
+				getCookie('cookieWindowHeight') == thisbrowserheight)
+				{
+					supersizeCached = true;
+				}
+				else
+				{
+
+					//$("#supersize_loading").css('display', 'block');
+
+					//$("#img1").css('visibility', 'visible');
+
+					/*
+					$("#imgOld").attr('src', getCookie('cookieImg'));
+					$("#imgOld").css('width', getCookie('cookieNewImgWidth') + 'px');
+					$("#imgOld").css('height', getCookie('cookieNewImgHeight') + 'px');
+					$("#imgOld").css('left', getCookie('cookieImgLeft') + 'px');
+					$("#imgOld").css('top', getCookie('cookieImgTop') + 'px');
+					$("#imgOld").css('visibility', 'visible');
+					*/
+
+					//Invoke the resizenow() function on document ready
+					//$(document).ready(function() {
+						//setTimeout($('#supersize_loading').fadeOut(500, function(){$('#supersize_loading').css("display", "none");}), 500);
+						//$('#supersize_loading').hide();
+					//});
+
+
+
+					supersizeCached = false;
+				}
+			}
+			else
+			{
+				supersizeCached = false;
+			}
+
+			if(supersizeCached == false)
+			{
+				
+
+				var exp = new Date();     //set new date object
+				exp.setTime(exp.getTime() + (1000 * 60 * 60 * 24 * 30));     //set it 30 days ahead 						
+
+				setCookie('cookieWidth','1680', exp);
+
+
+				setCookie('cookieHeight','929', exp);
+
+				setCookie('cookieImg','/images/design/bakground.png', exp);
+
+				setCookie('cookieWindowWidth',$(window).width(), exp);
+
+				setCookie('cookieWindowHeight',$(window).height(), exp);
+						
+				//Invoking the supersized function on the div with id - supersize. It is the div that contains the large background image
+				$("div#supersize").supersize();
+
+				
+			}
+			else
+			{
+
+				$("#img1").css('width', getCookie('cookieNewImgWidth') + 'px');
+				$("#img1").css('height', getCookie('cookieNewImgHeight') + 'px');
+
+
+				
+
+						$("#img1").css('left', getCookie('cookieImgLeft') + 'px');
+
+
+						
+
+
+				$("#img1").css('left', getCookie('cookieImgLeft') + 'px');
+
+
+				$("#img1").css('top', getCookie('cookieImgTop') + 'px');
+				$("#img1").css('visibility', 'visible');
+
+				$("div#supersize").supersize();
+
+			}
+
+
+			</script><div id="supersize" style="display:block;position: fixed;z-index:-2;height:100%;width:100%;" xmlns=""><img id="img1" style="z-index:-2;diaplay:block;position:absolute;filter:alpha(opacity=100);-moz-opacity:1.0;-khtml-opacity: 1.0;opacity: 1.0;" alt="" src="../../images/design/bakground2.png"></div>
+      <div id="top">
+        <div id="top_bg"> </div>
+        <div id="top_inner">
+          <ul class="menu level1"><li class="active "><a href="index.html" class="inactive">Contact</a><div style="float:left;width:11px;height:14px;display:block;"> </div></li><li class="inactive "><a href="../services/index.html" class="inactive">Fees, Services and Payment</a><div style="float:left;width:11px;height:14px;display:block;"> </div></li><li class="inactive "><a href="../../projects/theme/mad-about-badehusgaten/index.html" class="inactive">Gallery</a><div style="float:left;width:11px;height:14px;display:block;"> </div></li><li class="inactive "><a href="../philosophy/index.html" class="inactive">About Us</a><div style="float:left;width:11px;height:14px;display:block;"> </div></li><li class="inactive"><a href="../../index.html" class="inactive">home</a><div style="float:left;width:11px;height:14px;display:block;"> </div></li></ul>
+        </div>
+      </div>
+      <div id="middle_logo">
+        <a id="logo_link" class="no_decoration_link" href="../../index.html">
+          <img src="../../images/design/logo.png" width="85px" height="87px" alt="" />
+        </a>
+      </div>
+      <div id="middle">
+        <div id="horizontal-arrow-left" class="clickable" style="display:none;">
+          <img src="../../images/design/doc_list_arrow_left.png" alt="prev" width="95px" height="90px" />
+        </div>
+        <div id="horizontal-arrow-right" class="clickable" style="display:none;">
+          <img src="../../images/design/doc_list_arrow_right.png" alt="next" width="95px" height="90px" />
+        </div>
+        <div class="clearer"> </div>
+        <div id="middle_inner">
+          <div id="middle_inner_content">
+            <div class="doc1"><div class="content">
+              <h1>Contact</h1>
+              <div class="">
+                <p class="abstract">We will endeavour to answer your email enquiry within 1-2 business days, </p>
+                <p class="abstract">please be patient. If your enquiry is urgent, please contact Liz on the mobile.</p>
+                <div class="MsoNormal">
+                  <p>Phone: 0410 248 761</p>
+                  <p> Email: <a href="mailto:littlefolkparties@gmail.com">littlefolkparties@gmail.com</a> </p>
+                </div>
+<div class="MsoNormal">&#160;</div>
+  
+
+			  </div></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="share_div"> </div>
+    </div>
+
+  </body>
+</html>
+<!-- Localized -->
